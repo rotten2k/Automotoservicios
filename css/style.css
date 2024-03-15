@@ -1,0 +1,97 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+    height: 3000px;
+}
+.navbar{
+    background: rgba(0, 0, 0, 0.4);
+}
+.container{
+    width: 100vw;
+
+}
+
+.bg-image{
+    height: 100%;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    filter: brightness(0.7);
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.navbar-brand{
+    font-weight: 800;
+    color: white;
+    font-size: 2.7rem;
+}
+
+.nav-link{
+    color: white;
+    font-weight: 500;
+}
+
+.nav-link:hover{
+    color: red;
+    text-decoration: underline;
+    transition-duration: 0.1s;
+}
+
+.navbar-nav{
+    gap: 25px;
+}
+
+a span{
+    color: red;
+}
+
+.btn{    
+    border-radius: 30px;
+    padding: 17px 30px;
+}
+
+.lead{
+    color: white;
+    text-shadow: 0px 0px 1px rgb(132, 71, 71);
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.hero-container h1{
+    font-size: 4.6rem;
+    color: white;
+    text-shadow: 2px 1px 4px black;
+}
+
+.hero-container .p-time{
+    color: white;
+    font-size: 0.9rem;
+    text-shadow: 4px 5px 8px rgb(255, 0, 0);
+    width: fit-content;
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+.feature-container{
+    background: #2c3136;
+}
+
+.hero-container{
+    position: static;
+}
+
+.bg-image-feature{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    filter: brightness(0.7);
+    position: absolute;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
