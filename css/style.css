@@ -1,0 +1,163 @@
+html{
+    scroll-padding-top: 75px;
+}
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #00000042;
+    z-index:100;
+    animation: fade-in linear;
+    animation-timeline: view();
+}
+
+@keyframes fade-in {
+    from{scale: 0.8; opacity: 0;}
+    to {scale: 1; opacity: 1;}
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    padding-top: 75px;
+}
+.navbar{
+    background: rgba(0, 0, 0, 0.4);
+}
+.container{
+    width: 100vw;
+    
+}
+
+.bg-image{
+    height: 100%;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    filter: brightness(0.8);
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.navbar-brand{
+    font-weight: 800;
+    color: white;
+    font-size: 2.7rem;
+}
+
+.nav-link{
+    color: white;
+    font-weight: 500;
+}
+
+.nav-link:hover{
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+    transition-duration: 0.1s;
+}
+
+.navbar-nav{
+    gap: 70px;
+}
+
+a span{
+    color: red;
+}
+
+.btn{    
+    border-radius: 30px;
+    padding: 17px 30px;
+    border-style: hidden;
+    background-color: #25d366;
+}
+
+.lead{
+    color: white;
+    text-shadow: 0px 2px 2px rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 1.6rem;
+    padding-bottom: 5vh;
+
+}
+
+.hero-container h1{
+    font-size: 4.3rem;
+    color: white;
+    text-shadow: 2px 3px 4px black;
+    padding-bottom: 5vh;
+}
+
+.hero-container .p-time{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    text-shadow: 4px 1px 4px rgb(0, 0, 0);
+    width: fit-content;
+    padding-top: 10px;
+    font-weight: 400;
+    padding-left: 18px;
+}
+
+
+.hero-container{
+    height: 100vh;
+}
+
+
+/* FEATURE SECTION */
+
+.container .feature{
+    margin-bottom: 3%;
+    border: 1px;
+    border-color: linear-gradient(to right, rgba(128, 128, 128, 0.429) , rgba(255, 255, 0, 0));
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgba(128, 128, 128, 0.3) , rgba(255, 255, 0, 0));
+}
+
+.service-container h2 {
+    color: rgb(255, 0, 0);
+    text-shadow: 2px 3px 4px black;
+    font-size: 3.1em;
+    margin: 0;
+    padding: 0;
+}
+
+.service-container h3{
+    color: white;
+    text-shadow: 2px 3px 4px black;
+    margin-top: 0;
+    font-size: 1.8rem;
+}
+
+.service-container p{
+    color: white;
+    font-weight: 300;
+    text-shadow: 1px 1px 1px black;
+}
+
+.service-container .icon{
+    font-size: 2.2rem;
+    color: red;
+    text-shadow: 1px 1px 1px black;
+}
+
