@@ -45,8 +45,8 @@ body{
 
 }
 .container{
-    width: 100vw;
-    
+    min-width: 70vw;
+    margin: 0 auto;
 }
 
 .bg-image{
@@ -107,6 +107,28 @@ a span{
     color: white;
     text-shadow: 2px 3px 4px black;
     padding-bottom: 5vh;
+}
+
+@media (max-width: 430px) {
+    .hero-container h1 {
+        font-size: 2.7rem;
+    }
+
+    .service-container h3{
+        font-size: 1.2rem;
+    }
+
+    .navbar .navbar-brand{
+        font-size: 1.8rem;
+    }
+
+    .hero-container .hero-columns {
+        margin: 0;
+    }
+
+    .lead {
+        font-size: 1.2rem;
+    }
 }
 
 .hero-container .p-time{
