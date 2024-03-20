@@ -27,9 +27,9 @@
     <!-- NAVBAR -->
      <img class="bg-image" src="https://images.unsplash.com/photo-1530046614490-89e6f776b83b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Bg image">
 
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
-          <a class="navbar-brand" href="#hero-3">Auto<span>Moto</span>Servicios</a>
+          <a class="navbar-brand" href="#hero-3"><img src="images/logotext.png" alt="" class="logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -64,60 +64,72 @@
                 </a>
             </div>
             <p class="p-time fw-lighter">HORARIO ATENCIÓN: 8:00 - 18:00</p>
-          </div>
+          </div>auto
         </div>
       </div>
 
       <!-- SERVICIOS SECTION -->
-      <div class="service-container container px-4 py-5" id="featured-3">
-        <h2 class="pb-3">Servicios</h2>
-        <div class="row g-5 py-3 row-cols-1 row-cols-lg-2">
-          
-          
-          <div class="feature col">
-            <div class="icon">
-              <i class="fa-solid fa-wrench"></i>
-            </div>
-            <h3> Compresor: Tornillo y Pistón</h3>
-            <p>Ofrecemos un servicio integral que incluye no solo la reparación de fallos eléctricos, sino también la provisión de repuestos de alta calidad para garantizar un funcionamiento óptimo de su compresor a lo largo de toda su vida útil.</p>
-          </div>
-          <div class="feature col">
-            <div class="icon">
-              <i class="fa-solid fa-screwdriver-wrench"></i>
-            </div>
-            <h3>Desmontadora / Balanceadora</h3>
-            <p>Calibración, ajuste de polea y cabezal, cambio de filtro, correa y aceite, revisión de consumo eléctrico. <br>
-              Test de funcionamiento de motor, manómetro, condensador, FRL.</p>
-          </div>
-          <div class="feature col">
-            <div class="icon">
-              <i class="fa-solid fa-screwdriver"></i>
-            </div>
-            <h3>Torno: Rectificador</h3>
-            <p>El exceso de vibración acelera el desgaste de herramientas y afecta la calidad del trabajo. Identificar ajustes necesarios para restablecer la estabilidad óptima de la máquina mejora la precisión y la eficiencia en el proceso de rectificado.</p>
 
+      <div class="servicio-container container px-4 py-5" id="custom-cards">
+        <h2 class="pb-1">Servicios</h2>
+    
+        <div class="row row-cols-1 row-cols-lg-3 g-5 py-5">
+          <div class="col">
+            <div class="card overflow-hidden text-bg-dark rounded-4 shadow-lg">
+              <div class="d-flex flex-column h-100 p-2 pb-3 text-white text-shadow-1">
+                <h1 class="card-header pb-4"> <i class="fa-solid fa-wrench"></i> Balanceadora</h1>
+                <p class="card-text">Calibración, ajuste de polea y cabezal, cambio de filtro, correa y aceite, revisión de consumo eléctrico. <br>
+                Test de funcionamiento de motor, manómetro, condensador, FRL.</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url(images/compresor.jpg);">
+              <div class="d-flex flex-column h-100 p-2 pb-3 text-white text-shadow-1">
+                <h1 class="card-header pb-4"><i class="fa-solid fa-bolt"></i> Compresor</h1>
+                <p class="card-text">Ofrecemos un servicio integral que incluye no solo la reparación de fallos eléctricos, sino que también la provisión de repuestos de alta calidad para garantizar un funcionamiento óptimo de su compresor a lo largo de toda su vida útil</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url(images/diseno.jpg);">
+              <div class="d-flex flex-column h-100 p-2 pb-3 text-white text-shadow-1">
+                <h1 class="card-header pb-4"><i class="fa-solid fa-arrows-turn-to-dots"></i> Diseño y construcción de redes</h1>
+                <p class="card-text">Optimiza tus sistemas de aire, electricidad y agua con nuestros diseños especializados. <br>
+                  Aumenta la eficiencia y reduce costos operativos mientras garantizas un funcionamiento óptimo de tus instalaciones</p>
+              </div>
+            </div>
+          </div>
+       
+
+        
+          <div class="col">
+            <div class="card overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url(images/fallas.jpg);">
+              <div class="d-flex flex-column h-100 p-2 pb-3 text-white text-shadow-1">
+                <h1 class="card-header pb-4"><i class="fa-brands fa-connectdevelop"></i> Fallas eléctricas de equipos</h1>
+                <p class="card-text">Nuestro equipo de expertos en reparación de fallos eléctricos está áltamente capacitado y cuenta con años de experiencia en el diagnóstico y solución de problemas eléctricos en equipos motores</p>
+              </div>
+            </div>
           </div>
 
-          <div class="feature col">
-            <div class="icon">
-              <i class="fa-solid fa-arrows-turn-to-dots"></i>
+          <div class="col">
+            <div class="card overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url(images/torno.jpg);">
+              <div class="d-flex flex-column h-100 p-2 pb-3 text-white text-shadow-1">
+                <h1 class="card-header pb-4"><i class="fa-solid fa-screwdriver-wrench"></i> Torno: Rectificador</h1>
+                <p class="card-text">El exceso de vibración acelera el desgaste de herramientas y afecta la calidad del trabajo. Identificar ajustes necesarios para restablecer la estabilidad óptima de la máquina mejora la precisión y la eficiencia en el proceso de rectificado.</p>
+              </div>
             </div>
-            <h3>Transformación</h3>
-            <p>Mejora la eficiencia de tus motores con nuestra conversión de trifásico a bifásico. Aumenta la productividad y reduce costos mientras te beneficias de un rendimiento óptimo y una mayor durabilidad de tus equipos.</p>
           </div>
-          <div class="feature col">
-            <div class="icon">
-              <i class="fa-brands fa-connectdevelop"></i>
+
+          <div class="col">
+            <div class="card overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url(images/transformacion.jpg);">
+              <div class="d-flex flex-column h-100 p-2 pb-3 text-white text-shadow-1">
+                <h1 class="card-header pb-4"><i class="fa-solid fa-screwdriver"></i> Transformación</h1>
+                <p class="card-text">Mejora la eficiencia de tus motores con nuestra conversión de trifásico a bifásico. Aumenta la productividad y reduce costos mientras te beneficias de un rendimiento óptimo y una mayor durabilidad de tus equipos.</p>
+              </div>
             </div>
-            <h3>Diseño y construcción de redes</h3>
-            <p>Optimiza tus sistemas de aire, electricidad y agua con nuestros diseños <br> especializados. Aumenta la eficiencia y reduce costos operativos mientras garantizas un funcionamiento óptimo de tus instalaciones.</p>
-          </div>
-          <div class="feature col">
-            <div class="icon">
-              <i class="fa-solid fa-bolt"></i>
-            </div>
-            <h3>Fallas eléctricas de equipos</h3>
-            <p>Nuestro equipo de expertos en reparación de fallos eléctricos está altamente capacitado y cuenta con años de experiencia en el diagnóstico y solución de problemas eléctricos en equipos motores.</p>
           </div>
         </div>
       </div>
