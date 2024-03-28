@@ -8,9 +8,11 @@
 }
 
 body{
-    background: linear-gradient(-60deg, rgba(255, 255, 255, 0.171), rgba(15, 128, 134, 0.281));
+    /* background: linear-gradient(60deg, rgba(139, 148, 120, 0.438), rgba(86, 81, 88, 0.219)); */
     background-attachment: fixed;
     margin-bottom: 100px;
+
+    background: linear-gradient(-60deg, rgba(255, 255, 255, 0.171), rgba(15, 128, 134, 0.281));
 }
 
 .section-padding{
@@ -26,6 +28,56 @@ body{
     padding-top: 100px;
 }
 
+#services .big-service{
+    display: flex;
+    flex-direction: row;
+}
+
+#services .big-service h5{
+    font-size: 3.6rem;
+    font-weight: 500;
+    
+}
+
+#services .big-service p {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+
+
+.container img{
+    width: 60%;
+}
+
+.carousel img{
+    height: 295px;
+    object-fit: cover;
+    max-width: 100%;
+    line-height: 1;
+    width: 100%;
+    filter: grayscale(0.1);
+    border-radius: 9px;
+    
+}
+
+.carousel{
+    padding-bottom: 120px;
+}
+
+.carousel img::after{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), white);
+}
+
+.container h2{
+    font-size: 3.3rem;
+    letter-spacing: 10px;
+    text-shadow: 1px 1px 3px rgb(12, 0, 0);
+}
+
+.container span{
+    color: #be0000;
+}
 .foot-container i {
     color: white;
 }
@@ -72,10 +124,10 @@ section i{
     animation-timeline: view();
 }
 
-@keyframes fade-in {
+/* @keyframes fade-in {
     from{scale: 0.8; opacity: 0;}
     to {scale: 1; opacity: 1;}
-}
+} */
 
 
 .my-float{
@@ -94,6 +146,8 @@ section i{
 }
 .navbar-nav{
     gap: 60px;
+    padding-right: 115px;
+    
 }
 
 .navbar-nav .nav-link:hover{
@@ -123,7 +177,7 @@ section i{
 }
 
 .content p{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 300;
 }
 
@@ -131,7 +185,7 @@ section i{
     display: flex;
     text-align: center;
     margin-top: 10vh;
-    height: 100vh;
+    height: 50vh;
 }
 
 
@@ -145,6 +199,10 @@ section i{
 
 #services h1{
     padding-bottom: 2vh;
+}
+
+h1{
+    font-weight: 700;
 }
 .service::after{
     content: "";
@@ -180,11 +238,13 @@ section i{
     }
 
     #hero{
-        padding-top: 4vh;
+        margin-top: 20px;
+        height: 100vh;
     }
 
     .content p {
         width: 80%;
+        font-size: 1.2rem;
     }
 
     #about iframe{
@@ -193,5 +253,32 @@ section i{
 
     .row .conocenos-title{
         padding-top: 30px;
+    }
+
+    .container h2{
+        font-size: 2.8rem;
+    }
+
+    .container img {
+        width: 100%;
+    }
+
+    #services .big-service h5{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    
+    #services .big-service p {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    #services .big-service{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .hero-bottom-text{
+        font-size: 1.5rem;
     }
 }
